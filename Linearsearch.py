@@ -14,9 +14,9 @@ def linearsearch(arr,x):
 def Linesearch(x1,y):
     search = linearsearch(x1,y)
     if search == -1:
-        print(y," Tidak ditemukan")
+        print(y," tidak ditemukan")
     else:
-        print(y, "Ditemukan di index", search)
+        print(y, "ditemukan di index", search)
 
 Array = ["Arsel","Avivah","Daiva",["Wahyu","Wibi"]]
 
