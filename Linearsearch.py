@@ -1,8 +1,8 @@
 def linearsearch(arr,x):
     for i in range(len(arr)):
         if type(arr[i]) == list:
-            searchdata = linearsearch(arr[i],x)
-            if searchdata == -1:
+            data = linearsearch(arr[i],x)
+            if data == -1:
                 return -1
             else:
                 print(x, "ditemukan di indeks" ,i, "kolom" ,searchdata,)
